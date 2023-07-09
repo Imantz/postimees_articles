@@ -1,0 +1,90 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  font-family: 'Tabac Sans Light', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+@font-face {
+  font-family: 'Tabac Sans Bold';
+  src: url('/fonts/TabacSans-Bold/TabacSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tabac Sans Light';
+  src: url('/fonts/TabacSansLight/TabacSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tabac Sans Light';
+  src: url('/fonts/TabacSansLight/TabacSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tabac Sans Semi Bold';
+  src: url('/fonts/TabacSansSemiBold/TabacSansSemiBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.tabac-sans-semi-bold {
+  font-family: 'Tabac Sans Semi Bold', sans-serif;
+}
+
+.tabac-sans-bold {
+  font-family: 'Tabac Sans Bold', sans-serif;
+}
+
+.tabac-sans-light {
+  font-family: 'Tabac Sans Light', sans-serif;
+}
+
+

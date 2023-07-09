@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Tabac Sans';
+    src: local('Tabac Sans Light'), local('Tabac-Sans-Light'),
+        url('TabacSansLight.woff2') format('woff2'),
+        url('TabacSansLight.woff') format('woff'),
+        url('TabacSansLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
